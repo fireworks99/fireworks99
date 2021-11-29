@@ -1,7 +1,7 @@
 
 ### Hi there 👋
 
-<img align="left" src="https://github-readme-stats.vercel.app/api/top-langs/?username=fireworks99&layout=compact&hide=html" />
+<img align="left" src="https://github-readme-stats.vercel.app/api/top-langs/?username=fireworks99&hide=html" />
 
 <img align="right" src="https://github-readme-stats.vercel.app/api?username=fireworks99&show_icons=true&theme=vue" />
 
