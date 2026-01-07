@@ -1,13 +1,9 @@
 
 ### Hi there! 👋
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=fireworks99&layout=compact)
-
-![Stats](https://github-readme-stats.vercel.app/api?username=fireworks99&show_icons=true)
-
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=fireworks99)
-
-![Summary](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=你的用户名)
+![Stats](./profile/stats.svg)
+![Top Languages](./profile/top-langs.svg)
+![Pinned](./profile/pin-readme-tools-github-readme-stats.svg)
 
 
 - 🔭 I’m currently working on a 3D GIS platform based on Cesium and OpenLayers
