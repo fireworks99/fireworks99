@@ -5,9 +5,9 @@ Focused on Cesium, OpenLayers, and data visualization platforms.
 
 ### 📊 GitHub Stats
 
-<p align="center">
-  <img src="./profile/stats.svg" width="400" height="185"/>
-  <img src="./profile/top-langs.svg" width="400" height="185"/>
+<p align="left">
+  <img src="./profile/stats.svg" width="436" height="165"/>
+  <img src="./profile/top-langs.svg" width="400" height="165"/>
 </p>
 
 ### 👨‍💻 About Me
