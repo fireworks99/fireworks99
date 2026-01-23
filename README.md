@@ -39,7 +39,7 @@ Focused on Cesium, OpenLayers, and data visualization platforms.
 2. **[learn-vercel](https://learn-vercel-six.vercel.app/)**
    A simple demo project for practicing deployment workflows with Vercel.
 
-3. **[netdisk](http://fireworks99.github.io/netdisk-web/)**
+3. **[netdisk](https://fireworks99.github.io/netdisk-web/)**
    Frontend part of a Spring Boot practice project, exploring basic file management and preview features.
 
 4. **[SSMDocs](https://fireworks99.github.io/SSMDocs/)**
