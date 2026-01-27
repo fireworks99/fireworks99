@@ -50,4 +50,7 @@ Focused on Cesium, OpenLayers, and data visualization platforms.
 
 6. **[GIS_Cesium_OpenLayers](https://fireworks99.github.io/GIS_Cesium_OpenLayers/)**
    Small GIS demos built with Cesium and OpenLayers, mainly for learning and feature exploration.
-   
+
+7. **[nuxt-acronyms](https://nuxt-acronyms.vercel.app/)**
+   A Nuxt-based acronyms dictionary project for practicing Nuxt features such as content management, SEO, and accessibility optimization.
+
