@@ -8,8 +8,8 @@
         role="img"
         aria-labelledby="descId"
       >
-        <title id="titleId">Joey Zhao's GitHub Stats, Rank: B</title>
-        <desc id="descId">Total Stars Earned: 43, Total Commits  (last year) : 447, Total PRs: 5, Total Issues: 89, Contributed to (last year): 1</desc>
+        <title id="titleId">Joey Zhao's GitHub Stats, Rank: B-</title>
+        <desc id="descId">Total Stars Earned: 43, Total Commits  (last year) : 408, Total PRs: 5, Total Issues: 89, Contributed to (last year): 1</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 155.96759508364437;
+        stroke-dashoffset: 157.35271997816056;
       }
     }
   
@@ -129,7 +129,7 @@
         <g class="rank-text">
           
         <text x="-5" y="3" alignment-baseline="central" dominant-baseline="central" text-anchor="middle" data-testid="level-rank-icon">
-          B
+          B-
         </text>
       
         </g>
@@ -163,7 +163,7 @@
         x="219.01"
         y="12.5"
         data-testid="commits"
-      >447</text>
+      >408</text>
     </g>
   </g><g transform="translate(0, 50)">
     <g class="stagger" style="animation-delay: 750ms" transform="translate(25, 0)">
