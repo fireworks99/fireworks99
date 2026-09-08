@@ -1,21 +1,29 @@
 name: Update README cards
 
 on:
-  push: # 推送时立即触发
+  push:
     branches:
       - main
       - master
+
   schedule:
     - cron: "17 3 * * *"
+
+  workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout
+        uses: actions/checkout@v6
 
       - name: Generate stats card
-        uses: readme-tools/github-readme-stats-action@v1
+        uses: stats-organization/github-readme-stats-action@v2
         with:
           card: stats
           options: username=${{ github.repository_owner }}&show_icons=true&hide_title=true&card_width=400
@@ -23,7 +31,7 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Generate top languages card
-        uses: readme-tools/github-readme-stats-action@v1
+        uses: stats-organization/github-readme-stats-action@v2
         with:
           card: top-langs
           options: username=${{ github.repository_owner }}&langs_count=6&layout=compact&hide=html&card_width=400
@@ -32,8 +40,8 @@ jobs:
 
       - name: Commit cards
         run: |
-          git config user.name "fireworks99"
-          git config user.email "precious.joy@qq.com"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add profile/*.svg
           git commit -m "Update README cards" || exit 0
           git push
